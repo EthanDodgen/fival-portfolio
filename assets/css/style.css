@@ -6,8 +6,9 @@
 /* header start */
 
 header {
-    background-color: black;
+    background-color:black;
     padding: 40px 35px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header h1 {
@@ -27,8 +28,114 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color:white;
-    margin: 0 30px;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+
+/* header end*/
+
+/*hero start*/
+
+.hero {
+    background-image:url("../images/shipwhite2.jpg");
+    background-position: right center;
+    padding: 180px 0;
+    color: white; 
 }
+
+.hero h2 {
+    float: right; 
+    padding:130px 30px;
+}
+
+/* hero end*/
+
+/* main start*/
+
+main {
+    background-color:#EEE4BE;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    height: 1000px;
+  
+}
+main p {
+    margin: 0 200px;
+}
+
+.about-me {
+    padding:30px;
+}
+
+.work {
+    padding:30px;
+}
+
+.contact-me {
+    padding:30px;
+}
+
+main h2 {
+    float: left;
+    border-right: 3px solid;
+    border-color: black;
+    width: 140px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.work-grid-container {
+    display: grid;
+    padding: 0px 45px; 
+    gap: 5px;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 150px 150px 150px;
+    
+    
+}
+
+.work-grid-item {
+    background-color: white;
+}
+
+.box1 {
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 1; 
+    grid-row-end: 3; 
+  }
+
+ .box2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+.box3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+
+
+
+    
+
+
+/*main end*/
+
+/*footer start*/
+
+footer h2 {
+   font-family:'Courier New', Courier, monospace;
+   text-align: center;
+   color: white;
+   background-color: black;
+   padding:30px 0;
+}
+
+/*footer end*/
 
 
 
