@@ -71,13 +71,8 @@ main p {
     padding:30px;
 }
 
-.contact-me {
-    padding:30px;
-}
 
-.contact-me p {
-    padding: 20px 0px;
-}
+
 
 main h2 {
     float: left;
@@ -114,7 +109,15 @@ main h2 {
 img {
     height: 100%;
     width: 100%;
+    position: relative;
 }
+
+.work-grid-container h2 {
+    position: absolute;
+    background-color: black;
+}
+
+
 
 .box2 {
     grid-column-start: 3;
@@ -129,17 +132,27 @@ img {
     grid-row-end:3;
 }
 
-.project {
-    color: white;
-    background-color: black;
-    margin:20px 400px 0 0 ;
-    padding:10px
+.info {
+    display: inline;
 }
 
-.contact-me p {
-    font-weight: bold;
-    font-size: 20px;
+.contact-me {
+    padding:30px;
 }
+
+
+
+
+.contact-me .info ul  {
+    
+}
+
+
+
+
+
+
+
 
 /*main end*/
 
