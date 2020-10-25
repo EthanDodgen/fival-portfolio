@@ -7,8 +7,10 @@
 
 header {
     background-color:black;
-    padding: 40px 35px;
+    padding: 20px 35px;
     font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -18,7 +20,7 @@ header h1 {
 
 header nav {
     float: right;
-    padding:35px; 
+    padding:22px; 
 }
 
 header nav ul li {
@@ -38,31 +40,17 @@ header nav ul li a {
 
 .hero {
     background-image:url("../images/shipwhite2.jpg");
-    background-position: right center;
+    background-position:center;
     padding: 180px 0;
     color: white;
-    position: relative;
 }
-
-.hero h2 {
-    padding:20px 900px 20px 20px;
-    margin:70px 0 0 1400px;
-    position: absolute;
-    background-color: black;
-    color: white;
-    border-radius: 7px 0 7px 7px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-}
-
-
 
 /* hero end*/
 
 /* main start*/
 
 main {
-    background-color:#EEE4BE;
+    background-color:#FFEFD5;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace;
     height: 1000px;
@@ -105,15 +93,10 @@ main h2 {
     color: black;
 }
 
-
-
 img {
     height: 100%;
     width: 100%;
 }
-
-
-
 
 .box1 {
     grid-column-start: 1; 
@@ -179,13 +162,17 @@ img {
     border-radius:0 7px 7px 0;
 }
 
+.contact-me {
+    padding:20px;
+    margin:20px 0; 
+}
+
 .contact-me .info ul li {
     display: inline;
     margin:0 0 0 80px;
     text-decoration: underline;
     font-weight: bolder;
     font-size: 21px;
-
 }
 
 /*main end*/
