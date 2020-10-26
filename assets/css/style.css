@@ -41,9 +41,16 @@ header nav ul li a {
 .hero {
     background-image:url("../images/shipwhite2.jpg");
     background-position:center;
-    padding: 180px 0;
+    padding: 50px 0;
     color: white;
 }
+
+.hero img {
+    border-radius: 0 7px 7px 0;
+}
+
+
+
 
 /* hero end*/
 
@@ -62,6 +69,10 @@ main p {
 
 .about-me {
     padding:30px;
+}
+
+.about-me p {
+    text-align: center;
 }
 
 .work {
@@ -173,6 +184,7 @@ img {
     text-decoration: underline;
     font-weight: bolder;
     font-size: 21px;
+    color: black;
 }
 
 /*main end*/
