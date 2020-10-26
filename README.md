@@ -17,4 +17,4 @@ https://github.com/EthanDodgen/fival-portfolio
 Hand Made by Ethan Dodgen
 
 ## Image
-![Alt text](path/to/screenshot.jpg)
+![Alt text](./portfolio/assets/images/Screenshot.jpg)
