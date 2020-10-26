@@ -10,7 +10,7 @@ CSS
 ## Webstie
 https://ethandodgen.github.io/fival-portfolio/.
 
-##Github Repo
+## Github Repo
 https://github.com/EthanDodgen/fival-portfolio
 
 ##
