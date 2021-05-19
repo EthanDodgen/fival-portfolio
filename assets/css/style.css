@@ -13,7 +13,6 @@ header {
     background-color: rgb(59, 59, 59);
     height: 1000px;
     width: 215px;
-    
 }
 
 /*header end*/
@@ -26,16 +25,21 @@ header {
     background-position: center;
     background-size: cover;
     opacity: 0.9;
-    position: relative;
+   
 }
 
 #profile-image {
-    background-image: url("../images/ethan.PNG");
-    height:500px;
-    width: 500px;
+    background-color: white;
+    height:225px;
+    width: 225px;
     background-repeat: no-repeat;
     position: absolute;
     margin: 40px;
+    border-radius: 50%;
+}
+
+.info {
+    margin: 200px;
 }
 
 /*main end*/
