@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+}
 
 /*header*/
 header {
-    background-color: rgb(51, 50, 50);
-    float: left;
+    background-color: rgb(59, 59, 59);
     height: 1000px;
-    width: 150px;
-    float: left;
+    width: 215px;
+    
 }
 
 /*header end*/
@@ -19,11 +21,21 @@ header {
 /*main*/
 .main {
     height: 1000px;
+    width: 100%;
     background-image: url("../images/main.jpg");
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
-    float: left;
+    opacity: 0.9;
+    position: relative;
+}
+
+#profile-image {
+    background-image: url("../images/ethan.PNG");
+    height:500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 40px;
 }
 
 /*main end*/
