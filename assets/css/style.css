@@ -15,7 +15,6 @@ header {
     width: 55px;
     text-align: center;
     
-    
 }
 
 header a {
@@ -24,7 +23,9 @@ header a {
 }
 
 nav {
-    margin: 10px 0 0 0;
+    padding: 5px 0 0 0;
+    position: sticky;
+    top: 0;
 }
 
 /*header end*/
@@ -35,7 +36,7 @@ nav {
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-color:black;
+    background-color:rgb(48, 46, 46);
 }
 
 #profile-image {
@@ -54,8 +55,10 @@ nav {
     color: rgb(245, 248, 245);
 }
 
+/*projects start*/
 .work h2 {
    text-align: center;
+   color: white;
 }
 
 .contact-me {
@@ -101,5 +104,26 @@ nav {
     background-image: url(../images/run-buddy.jpg)
 }
 
+/*projects end*/
 
 /*main end*/
+
+#hello {
+    font-family: 'Noto Sans HK', sans-serif;
+    color: white;
+    font-size: 90px;
+}
+
+#Ethan {
+    font-family: 'Noto Sans HK', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+#code {
+    color: white;
+}
+
+#developer {
+    color: white;
+}
