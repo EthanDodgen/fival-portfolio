@@ -11,10 +11,9 @@
 /*header*/
 header {
     background-color: rgb(41, 41, 41);
-    height: 3000px;
-    width: 55px;
+    height: 2084px;
+    width: 75px;
     text-align: center;
-
 }
 
 header a {
@@ -27,12 +26,15 @@ nav {
     position: sticky;
     top: 0;
 }
+.tab {
+    margin: 10px 0 0 0;
+}
 
 /*header end*/
 
 /*main*/
 .main {
-    height: 1500px;
+    height: 1100px;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -81,13 +83,13 @@ nav {
 }
 
 .info h2 {
-    margin: 60px 0 0 0;
+    margin: 60px 0 10px 0;
     font-size: 30px;
 
 }
 
 .info p {
-    margin: 0 150px 25px 150px;
+    margin: 0 250px 25px 250px;
     font-size: 15px;
 }
 
@@ -106,7 +108,6 @@ nav {
     font-size: 65px;
     color: white;
     text-align: center;
-
 }
 
 /*about me end*/
@@ -114,34 +115,64 @@ nav {
 /*projects*/
 .work {
     background-color: rgb(54, 53, 53);
+    height: 100%;
 }
 
 .work h2 {
     text-align: center;
     color: white;
+    padding: 30px 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
 }
 
-.contact-me {
-    margin: 180px;
-    text-align: center;
-    background-color: white;
-}
+
 
 .projects {
     justify-content: center;
     margin: 10px;
 }
 
-.project-img {
+.project-info {
     background-color: rgb(41, 41, 41);
-    padding: 100px 5px 130px 5px;
+    padding: 10px 5px 130px 5px;
     border-radius: 5px 0 0 5px;
     width: 310px;
-    height: 200px;
+    height: 232px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px
 }
 
-.project-info {
+.tech-skills {
+    margin: 0 0 0 30px;
+    text-align: left;
+}
+
+.work-link {
+    color: white;
+    font-size: 35px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+#trackey {
+    margin: 40px 0 0 0;
+}
+
+#zookeeper {
+    margin: 20px 0 0 0;
+}
+
+#run-buddy {
+    margin: 80px 0 0 0;
+}
+
+.project-img {
     background-color: white;
     padding: 0 250px;
     border-radius: 0 5px 5px 0;
@@ -161,6 +192,15 @@ nav {
 
 #img-4 {
     background-image: url(../images/run-buddy.jpg)
+}
+
+.contact-me {
+    text-align: center;
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding:30px 0 0 0;
 }
 
 /*projects end*/
