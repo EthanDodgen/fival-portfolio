@@ -11,7 +11,7 @@
 /*header*/
 header {
     background-color: rgb(41, 41, 41);
-    height: 2130px;
+    height: 2110px;
     width: 75px;
     text-align: center;
 }
@@ -197,9 +197,10 @@ nav {
     text-align: center;
     background-color: rgb(48, 46, 46);
     width: 100%;
-    height: 100px;
+    height: 80px;
     color: white;
-    padding:30px 0 0 0;
+    padding:15px 0 0 0;
+    text-decoration: none;
 }
 
 /*projects end*/
