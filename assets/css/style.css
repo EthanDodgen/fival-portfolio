@@ -11,7 +11,7 @@
 /*header*/
 header {
     background-color: rgb(41, 41, 41);
-    height: 2084px;
+    height: 2130px;
     width: 75px;
     text-align: center;
 }
@@ -157,7 +157,6 @@ nav {
 
 .link {
     color: white;
-    text-decoration: none;
 }
 
 #trackey {
