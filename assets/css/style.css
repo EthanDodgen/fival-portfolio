@@ -11,13 +11,11 @@
 /*header*/
 header {
     background-color: rgb(41, 41, 41);
-    height: 2110px;
     width: 75px;
     text-align: center;
 }
 
 header a {
-    text-decoration: none;
     color: white;
 }
 
@@ -94,7 +92,8 @@ nav {
 }
 
 #profile-image {
-    background-image: url("../images/ethan.PNG");
+    background-image: url("../images/ethan2.jpg");
+    background-position: 10% 45%;
     height: 325px;
     width: 325px;
     background-repeat: no-repeat;
@@ -126,8 +125,6 @@ nav {
     font-size: 30px;
 }
 
-
-
 .projects {
     justify-content: center;
     margin: 10px;
@@ -145,6 +142,10 @@ nav {
     font-size: 14px
 }
 
+.project-info div a {
+    text-decoration: none;
+}
+
 .tech-skills {
     margin: 0 0 0 30px;
     text-align: left;
@@ -159,9 +160,11 @@ nav {
     color: white;
 }
 
+
 #trackey {
     margin: 40px 0 0 0;
 }
+
 
 #zookeeper {
     margin: 20px 0 0 0;
@@ -197,10 +200,16 @@ nav {
     text-align: center;
     background-color: rgb(48, 46, 46);
     width: 100%;
-    height: 80px;
     color: white;
     padding:15px 0 0 0;
-    text-decoration: none;
+    
+    
+}
+
+#contact {
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    padding: 0 0 10px 0;
 }
 
 /*projects end*/
