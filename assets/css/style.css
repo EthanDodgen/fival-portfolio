@@ -25,6 +25,7 @@ nav {
     padding: 5px 0 0 0;
     position: sticky;
     top: 0;
+    width: 55px;
 }
 .tab {
     margin: 10px 0 0 0;
