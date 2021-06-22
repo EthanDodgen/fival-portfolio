@@ -5,16 +5,15 @@
 }
 
 .container {
-    background-color:rgb(41, 41, 41);
+    background-color:white;
     display: flex;
+
 }
 
 /*header*/
 header {
     background-color: rgb(41, 41, 41);
-    height: 100%;
     text-align: center;
-    
 }
 
 header a {
@@ -24,7 +23,6 @@ header a {
 nav {
     padding: 5px 0 0 0;
     position: sticky;
-    top: 0;
     width: 55px;
 }
 .tab {
@@ -130,19 +128,19 @@ nav {
 
 .projects {
     justify-content: center;
-    margin: 10px 400px 10px 400px;
+    margin: 10px 400px 10px 400px;/*need to change from margin to width, delete margin and see what happens*/
+    width: 1000px;
 }
 
 .project-info {
     background-color: rgb(41, 41, 41);
-    margin: 10px 5px 0px 5px;
     border-radius: 5px 0 0 5px;
     height: 232px;
-    width: 700px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 14px
+    font-size: 14px;
+    
 }
 
 .project-info div a {
@@ -163,7 +161,6 @@ nav {
     color: white;
 }
 
-
 #trackey {
     margin: 40px 0 0 0;
 }
@@ -179,9 +176,8 @@ nav {
 
 .project-img {
     background-color: white;
-    padding: 0 250px;
+    width:200px;
     border-radius: 0 5px 5px 0;
-    width: 100%;
 }
 
 #img-1 {
