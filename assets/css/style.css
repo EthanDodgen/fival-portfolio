@@ -5,9 +5,7 @@
 }
 
 .container {
-    background-color:white;
     display: flex;
-
 }
 
 /*header*/
@@ -33,7 +31,6 @@ nav {
 
 /*main*/
 .main {
-    width: 100%;
     background-position: center;
     background-size: cover;
     background-color: rgb(48, 46, 46);
@@ -126,21 +123,21 @@ nav {
     font-size: 30px;
 }
 
+
 .projects {
+    background-color: rgb(54, 53, 53);
     justify-content: center;
-    margin: 10px 400px 10px 400px;/*need to change from margin to width, delete margin and see what happens*/
-    width: 1000px;
+    margin: 7px 0 0 0;
 }
 
 .project-info {
     background-color: rgb(41, 41, 41);
     border-radius: 5px 0 0 5px;
-    height: 232px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 14px;
-    
+    width: 300px;
 }
 
 .project-info div a {
@@ -162,44 +159,52 @@ nav {
 }
 
 #trackey {
-    margin: 40px 0 0 0;
+    margin: 72px 0 0 0;
 }
 
 
 #zookeeper {
-    margin: 20px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 #run-buddy {
-    margin: 80px 0 0 0;
+    margin: 90px 0 0 0;
 }
 
-.project-img {
-    background-color: white;
-    width:200px;
-    border-radius: 0 5px 5px 0;
+#u-vote {
+    margin: 50px 0 0 0;
 }
 
 #img-1 {
     background-image: url(../images/trackey.jpg);
+    width: 500px;
+    border-radius: 0 5px 5px 0;
 }
 
 #img-2 {
-    background-image: url(../images/zookeeper.jpg)
+    background-image: url(../images/zookeeper.jpg);
+    width: 500px;
+    border-radius: 0 5px 5px 0;
 }
 
 #img-3 {
-    background-image: url(../images/u-vote.jpg)
+    background-image: url(../images/u-vote.jpg);
+    width: 500px;
+    border-radius: 0 5px 5px 0;
 }
 
 #img-4 {
-    background-image: url(../images/run-buddy.jpg)
+    background-image: url(../images/run-buddy.jpg);
+    width: 500px;
+    border-radius: 0 5px 5px 0;
 }
 
+/*projects end*/
+
+/*contact-me*/
 .contact-me {
     text-align: center;
     background-color: rgb(48, 46, 46);
-    width: 100%;
     color: white;
 }
 
@@ -208,6 +213,10 @@ nav {
     font-size:20px;
 }
 
-/*projects end*/
+#contact-link {
+    padding: 2px 0 5px 0;
+}
+
+/*contact-me end*/
 
 /*main end*/
