@@ -20,9 +20,9 @@ header a {
 
 nav {
     padding: 5px 0 0 0;
-    position: sticky;
-    width: 55px;
+    width: 58px;
 }
+
 .tab {
     margin: 10px 0 0 0;
 }
@@ -35,7 +35,6 @@ nav {
     background-size: cover;
     background-color: rgb(48, 46, 46);
 }
-
 
 /*home*/
 #home {
@@ -138,6 +137,8 @@ nav {
     color: white;
     font-size: 14px;
     width: 300px;
+    padding: 5px 0 0 0;
+    height: 240px;
 }
 
 .project-info div a {
@@ -150,7 +151,6 @@ nav {
 }
 
 .work-link {
-    color: white;
     font-size: 35px;
 }
 
@@ -159,20 +159,20 @@ nav {
 }
 
 #trackey {
-    margin: 72px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 
 #zookeeper {
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 #run-buddy {
-    margin: 90px 0 0 0;
+    margin: 95px 0 0 0;
 }
 
 #u-vote {
-    margin: 50px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 #img-1 {
