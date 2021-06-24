@@ -12,15 +12,17 @@
 header {
     background-color: rgb(41, 41, 41);
     text-align: center;
+    position: fixed;
 }
 
 header a {
     color: white;
 }
 
-nav {
+#navigate {
     padding: 5px 0 0 0;
     width: 58px;
+    height: 1000px;
 }
 
 .tab {
